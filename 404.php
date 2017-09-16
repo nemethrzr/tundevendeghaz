@@ -4,6 +4,8 @@
 	<title></title>
 </head>
 <body>
-Az oldal nem található
+<?php 
+	header('Location: http://tundevendeghaz.hu');
+?>
 </body>
 </html>

@@ -6,6 +6,11 @@
 
 			}
 			$uri = explode('/', $_SERVER['REQUEST_URI']);
+
+			/* newhosting-on elég ez
+				$url = 'http://'.$_SERVER['HTTP_HOST'].$uri[0];
+			*/
+			//localhost-on, xammp-nál pedig ez:	
 			$url = 'http://'.$_SERVER['HTTP_HOST'].$uri[0].'/'.$uri[1];
 ?>
 <!DOCTYPE html>
