@@ -1,5 +1,45 @@
-<div class="content">
+	<div class="container">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		    <li data-target="#myCarousel" data-slide-to="3"></li>
+		  </ol>
 
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item active">
+		      <img src="img/IMG_0262.JPG" alt="">
+		    </div>
+
+		    <div class="item">
+		      <img src="img/IMG_0263.JPG" alt="">
+		    </div>
+
+		    <div class="item">
+		      <img src="img/IMG_0266.JPG" alt="">
+		    </div>
+		    <div class="item">
+		      <img src="img/IMG_0268.JPG" alt="">
+		    </div>
+		  </div>
+
+		  <!-- Left and right controls -->
+		  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Előző</span>
+		  </a>
+		  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Következő</span>
+		  </a>
+		</div>
+
+
+
+<div class="content">
 <h2>Az oldal fejlesztés/karbantartás alatt van, addig is szíves elnézését, és türelmét kérjük!</h2>
 
 <h2>Üdvözli Önt Tiszakécskén a Tünde Vendégház!</h2>
@@ -19,4 +59,5 @@ Mol benzinkút a szolnoki úton található.
 </p>
 <p><b>Szerezzen felejthetetlen élményeket nálunk! Kérjen ajánlatot, és foglalja le szállását időben!</b></p>
 
+	</div>
 	</div>

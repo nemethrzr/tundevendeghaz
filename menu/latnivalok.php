@@ -1,4 +1,4 @@
-	
+<div class="container">
 	<div class="content">
      
  <h2>Látnivalók</h2>
@@ -7,3 +7,4 @@
            
     </div>
 
+</div>	

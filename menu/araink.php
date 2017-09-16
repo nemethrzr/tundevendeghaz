@@ -1,3 +1,4 @@
+<div class="container">
 <div class="content">
      
  <h2>Árainkról</h2>
@@ -62,3 +63,4 @@ Amennyiben lemondása az érkezés előtt 2 nappal lenne, akkor a lefoglalt idő
 
 
 
+</div>
