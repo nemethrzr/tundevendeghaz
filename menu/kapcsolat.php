@@ -34,7 +34,25 @@
 
         </div>
 
-           
+           <div class="row">
+           	<div class="col-md-5">
+	           	<h3>Üzenet küldése: </h3>
+	           	<form>
+				  <div class="form-group">
+				    <label for="formGroupExampleInput">Feladó:</label>
+				    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Feladó neve">
+				  </div>
+				  <div class="form-group">
+				    <label for="formGroupExampleInput2">Üzenet</label>
+				    
+				    <textarea class="form-control" id="formGroupExampleInput2" placeholder="Email szövege" rows="7"></textarea>
+				  </div>
+				  <div class="form-group">				    
+				    <input type="submit" class="btn btn-primary" id="formGroupExampleInput2" title="Küldés">
+				  </div>
+				</form>
+			</div>
+           </div>
     </div>
 
 </div>
