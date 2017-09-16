@@ -5,6 +5,8 @@
 				$oldal = 'fooldal';
 
 			}
+			$uri = explode('/', $_SERVER['REQUEST_URI']);
+			$url = 'http://'.$_SERVER['HTTP_HOST'].$uri[0].'/'.$uri[1];
 ?>
 <!DOCTYPE html>
 <html>
@@ -66,11 +68,11 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li <?php if($oldal == 'fooldal'): ?> class="active" <?php endif ?>><a href="index.php?oldal=fooldal"><span class="glyphicon glyphicon-home"></span> Főoldal <span class="sr-only">(current)</span></a></li>
-			<li <?php if($oldal == 'latnivalok'): ?> class="active" <?php endif ?>><a href="index.php?oldal=latnivalok"><span class="glyphicon glyphicon-eye-open"></span> Látnivalók</a></li>
-			<li <?php if($oldal == 'araink'): ?> class="active" <?php endif ?>><a href="index.php?oldal=araink"><span class="glyphicon glyphicon-piggy-bank"></span> Áraink</a></li>
-			<li <?php if($oldal == 'galeria'): ?> class="active" <?php endif ?>><a href="index.php?oldal=galeria"><span class="glyphicon glyphicon-picture"></span> Galéria</a></li>	 
-			<li <?php if($oldal == 'kapcsolat'): ?> class="active" <?php endif ?>><a href="index.php?oldal=kapcsolat"><span class="glyphicon glyphicon-envelope"></span> Kapcsolat</a></li>
+	        <li <?php if($oldal == 'fooldal'): ?> class="active" <?php endif ?>><a href="<?php echo $url ?>/fooldal"><span class="glyphicon glyphicon-home"></span> Főoldal <span class="sr-only">(current)</span></a></li>
+			<li <?php if($oldal == 'latnivalok'): ?> class="active" <?php endif ?>><a href="<?php echo $url ?>/latnivalok"><span class="glyphicon glyphicon-eye-open"></span> Látnivalók</a></li>
+			<li <?php if($oldal == 'araink'): ?> class="active" <?php endif ?>><a href="<?php echo $url ?>/araink"><span class="glyphicon glyphicon-piggy-bank"></span> Áraink</a></li>
+			<li <?php if($oldal == 'galeria'): ?> class="active" <?php endif ?>><a href="<?php echo $url ?>/galeria"><span class="glyphicon glyphicon-picture"></span> Galéria</a></li>	 
+			<li <?php if($oldal == 'kapcsolat'): ?> class="active" <?php endif ?>><a href="<?php echo $url ?>/kapcsolat"><span class="glyphicon glyphicon-envelope"></span> Kapcsolat</a></li>
 	      </ul>
 	      
 	    </div><!-- /.navbar-collapse -->
