@@ -142,13 +142,7 @@ body h2,p,b{
 @media (min-width: @screen-xs-min) { 
 	.navbar a{
 		font-size: 10px;
-	}
-	#footer {
-		height:100px !important;
-	}
-}
-@media(min-width: @screen-xs-min){
-
+	}	
 }
 
 
