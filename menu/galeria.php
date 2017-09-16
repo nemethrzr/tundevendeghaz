@@ -11,7 +11,7 @@
         <article class="col-xs-12 col-sm-6 col-md-3">
             <div class="panel panel-default">
                 <div class="panel-body">
-                    <a href="img/IMG_0262.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
+                    <a href="img/IMG_0262.JPG" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
                         <img src="img/IMG_0262.JPG" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
