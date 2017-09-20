@@ -12,7 +12,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/IMG_0262.JPG" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0262.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0262.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -24,7 +24,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/IMG_0263.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0263.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0263.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -36,7 +36,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/IMG_0266.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0266.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0266.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -48,7 +48,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/IMG_0268.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0268.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0268.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -66,7 +66,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/WP_20160909_012.jpg" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160909_012.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160909_012.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -75,7 +75,7 @@
              <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/IMG_0250.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0250.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0250.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -84,7 +84,7 @@
              <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/WP_20160912_004.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160912_004.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160912_004.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -96,7 +96,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/WP_20160909_007.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160909_007.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160909_007.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -106,7 +106,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/IMG_0241.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0241.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0241.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -115,7 +115,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/WP_20160909_013.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160909_013.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160909_013.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -124,7 +124,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/17394322.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/17394322.jpg" alt="" />
+                        <img src="img/thumbnails/17394322.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -133,7 +133,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/WP_20160912_001.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160912_001.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160912_001.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -146,7 +146,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/IMG_0245.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0245.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0245.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -155,7 +155,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/WP_20160909_008.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160909_008.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160909_008.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -164,7 +164,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/IMG_0249.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0249.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0249.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -173,7 +173,7 @@
              <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/WP_20160912_002.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160912_002.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160912_002.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -182,7 +182,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/WP_20160912_006.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160912_006.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160912_006.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -194,7 +194,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/IMG_0242.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/IMG_0242.JPG" alt="" />
+                        <img src="img/thumbnails/IMG_0242.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -203,7 +203,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/WP_20160909_014.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160909_014.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160909_014.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -212,7 +212,7 @@
              <div class="panel panel-default">
                 <div class="panel-body">
                     <a href="img/WP_20160912_005.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160912_005.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160912_005.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
@@ -221,7 +221,7 @@
             <div class="panel panel-default">
                 <div class="panel-body">                    
                     <a href="img/WP_20160912_003.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/WP_20160912_003.jpg" alt="" />
+                        <img src="img/thumbnails/WP_20160912_003.jpg" alt="" />
                         <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                     </a>
                 </div>
