@@ -12,11 +12,38 @@
 			*/
 			//localhost-on, xammp-nál pedig ez:	
 			$url = 'http://'.$_SERVER['HTTP_HOST'].$uri[0].'/'.$uri[1];
+
+
+
+			$page_title = 'Főoldal';
+			switch ($oldal) {
+				case 'fooldal':
+					$page_title = 'Főoldal';
+					break;
+				case 'vendeghaz':
+					$page_title = 'Vendégház';
+					break;
+				case 'kapcsolat':
+					$page_title = 'Kapcsolat';
+					break;
+				case 'galeria':
+					$page_title = 'Galéria' ;
+					break;
+				case 'latnivalok':
+					$page_title = 'Látnivalók';
+					break;
+				case 'araink':
+					$page_title = 'Áraink';
+					break;
+				default:
+					$page_title = 'Főoldal';
+					break;
+			}
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tünde Vendégház</title>
+	<title>Tünde Vendégház - <?php echo $page_title; ?></title>
 	<meta charset="utf-8">
 	<meta name="description" content=" Pihenjen Ön is Tiszakécskén, a Tünde vendégházban!">
 	<meta name="keywords" content="vendégház, Tisza part, nyaralás, Tiszakécske">
