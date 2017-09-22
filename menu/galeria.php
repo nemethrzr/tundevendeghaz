@@ -6,230 +6,101 @@
 </div>
 <div class="container mt40">
 
-    <section class="row">
 
-        <article class="col-xs-12 col-sm-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/IMG_0262.JPG" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0262.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
+<?php 
+
+
+
+
+    $dir = './img/';
+    $thumb_dir = 'thumbnails';
+
+    $result = array(); 
+
+       $cdir = scandir($dir); 
+       foreach ($cdir as $key => $value) 
+       { 
+          if (!in_array($value,array(".",".."))) 
+          { 
+             if (is_dir($dir . DIRECTORY_SEPARATOR . $value)) 
+             { 
+               // $result[$value] = dirToArray($dir . DIRECTORY_SEPARATOR . $value); 
+             } 
+             else 
+             { 
+                $result[] = $value; 
+             } 
+          } 
+       } 
+
+     /*  print_r($result);
+       print_r(count($result));*/
+
+       /* count-ot osztom 4-el mert 4 oszlopban lesznek a képek */
+
+      $array = array();
+        foreach ($result as $item) {
+            $array[] = '<div class="panel panel-default">
+                        <div class="panel-body">
+                            <a href="'.$dir.DIRECTORY_SEPARATOR.$item.'" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
+                                <img src="'.$dir.DIRECTORY_SEPARATOR.$thumb_dir.DIRECTORY_SEPARATOR.$item.'" alt="" />
+                                <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
+                            </a>
+                        </div>
+                        
+                        </div>';
+        
+        }       
+
+       
+       
+       $count = round(count($result)/4);
+       
+        $j=0;
+        $col = 0;
+        $div = array();
+        for ($i=0; $i < count($array) ; $i++) { 
+            if($j<$count){
+                $div[$col][] = $array[$i];
+                //echo $array[$i];
+            }else{
+                $col++;
+                $j=0;
+                $div[$col][] = $array[$i];
+                //$div[]=$i;
+                continue;
+            }
+            $j++;
+        }
+
+
+        $output='<div>';
+        foreach ($div as $key => $value) {
+            //col-xs-12 col-sm-6 col-md-3
+            $output.= '<article class="col-xs-6 col-sm-6 col-md-3">';
+            foreach ($value as $val) {
                 
-            </div>
-        </article>
+                $output.=$val;
 
-        <article class="col-xs-12 col-sm-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/IMG_0263.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0263.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-        </article>
+            }
+            $output.='</article>';
+        }
+        $output.='</div>';
 
-        <article class="col-xs-12 col-sm-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/IMG_0266.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0266.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-        </article>
 
-        <article class="col-xs-12 col-sm-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/IMG_0268.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0268.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-                
-            </div>
-        </article>                                              
+//var_dump($div);
+?>
 
+
+<section class="row">
+    
+    <?php echo $output; ?>
 </section>
 
-<!-- 2-es row -->
- <section class="row">
 
-        <article class="col-xs-12 col-sm-6 col-md-3">
 
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/WP_20160909_012.jpg" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160909_012.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-                
-            </div>
-             <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/IMG_0250.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0250.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-             <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/WP_20160912_004.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160912_004.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-        </article>
 
-        <article class="col-xs-12 col-sm-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/WP_20160909_007.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160909_007.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
 
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/IMG_0241.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0241.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/WP_20160909_013.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160909_013.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/17394322.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/17394322.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/WP_20160912_001.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160912_001.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-            
-        </article>
-
-        <article class="col-xs-12 col-sm-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/IMG_0245.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0245.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/WP_20160909_008.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160909_008.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/IMG_0249.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0249.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-             <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/WP_20160912_002.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160912_002.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/WP_20160912_006.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160912_006.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-        </article>
-
-        <article class="col-xs-12 col-sm-6 col-md-3">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/IMG_0242.JPG" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/IMG_0242.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-                
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/WP_20160909_014.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160909_014.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-                
-            </div>
-             <div class="panel panel-default">
-                <div class="panel-body">
-                    <a href="img/WP_20160912_005.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160912_005.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-                
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-body">                    
-                    <a href="img/WP_20160912_003.jpg" title="" class="zoom" data-lightbox="images" data-title="" data-footer="" data-type="image" data-toggle="lightbox">
-                        <img src="img/thumbnails/WP_20160912_003.jpg" alt="" />
-                        <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
-                    </a>
-                </div>
-               
-            </div>
-        </article>                                              
-
-</section>
 
 
 

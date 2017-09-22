@@ -20,20 +20,20 @@ parkolás: ingyenes ( a vendégházon belül , a vendégház előtt is)</p>
 
 <table class="table table-hover">
 	<thead>
-		<tr><th></th><th>2018. márc. 30.-tól - máj. 31.-ig</th><th>jún 1-től szept 2-ig</th><th>szept. 4-től - okt 31-ig</th></tr>
+		<tr><th>Áraink a teljes vendégház bérletére vonatkoznak ellátás nélkül</th><th>2018. márc. 12.-tól - máj. 31.-ig</th><th>jún. 1-től szept 2.-ig</th><th>szept. 4-től - nov. 30-ig</th><th>dec 1.-től - jan. 6.-ig</th></tr>
 	</thead>
 	<tbody>
-		<tr><td>8 fő esetén </td><td>26.000.-Ft / éj</td><td>28.000.-Ft / éj</td><td>26.000.-Ft / éj</td></tr>
-		<tr><td>7 fő esetén	</td><td>24.000.-Ft / éj</td><td>26.000.-Ft / éj</td><td>24.000.-Ft / éj</td></tr>
-		<tr><td>6 fő esetén	</td><td>22.000.-Ft / éj</td><td>24.000.-Ft / éj</td><td>22.000.-Ft / éj</td></tr>
-		<tr><td>5 fő esetén	</td><td>20.000.-Ft / éj</td><td>22.000.-Ft / éj</td><td>20.000.-Ft / éj</td></tr>
-		<tr><td>4 fő esetén	</td><td>18.000.-Ft / éj</td><td>20.000.-Ft / éj</td><td>18.000.-Ft / éj</td></tr>
-		<tr><td>3 fő esetén	</td><td>16.000.-Ft / éj</td><td>18.000.-Ft / éj</td><td>16.000.-Ft / éj</td></tr>
-		<tr><td>2 fő esetén	</td><td>15.000.-Ft / éj</td><td>16.000.-Ft / éj</td><td>15.000.-Ft / éj</td></tr>		
+		<tr><td>8 fő esetén </td><td>26.000.-Ft / éj</td><td>28.000.-Ft / éj</td><td>26.000.-Ft / éj</td><td>28.000.-Ft / éj</td></tr>
+		<tr><td>7 fő esetén	</td><td>24.000.-Ft / éj</td><td>26.000.-Ft / éj</td><td>24.000.-Ft / éj</td><td>26.000.-Ft / éj</td></tr>
+		<tr><td>6 fő esetén	</td><td>22.000.-Ft / éj</td><td>24.000.-Ft / éj</td><td>22.000.-Ft / éj</td><td>24.000.-Ft / éj</td></tr>
+		<tr><td>5 fő esetén	</td><td>20.000.-Ft / éj</td><td>22.000.-Ft / éj</td><td>20.000.-Ft / éj</td><td>22.000.-Ft / éj</td></tr>
+		<tr><td>4 fő esetén	</td><td>18.000.-Ft / éj</td><td>20.000.-Ft / éj</td><td>18.000.-Ft / éj</td><td>20.000.-Ft / éj</td></tr>
+		<tr><td>3 fő esetén	</td><td>16.000.-Ft / éj</td><td>18.000.-Ft / éj</td><td>16.000.-Ft / éj</td><td>18.000.-Ft / éj</td></tr>
+		<tr><td>2 fő esetén	</td><td>15.000.-Ft / éj</td><td>16.000.-Ft / éj</td><td>15.000.-Ft / éj</td><td>16.000.-Ft / éj</td></tr>		
 	</tbody>
 	<tfoot>
 		<tr><td><b>Időszakonkénti minimum foglalási napok:</b></td><td></td></tr>
-		<tr><td></td><td>minimum 2 nap</td><td>minimum 3 nap</td><td>minimum 2 nap</td></tr>
+		<tr><td></td><td>minimum 2 nap</td><td>minimum 3 nap</td><td>minimum 2 nap</td><td>minimum 3 nap</td></tr>
 	</tfoot>
 	
 
@@ -53,6 +53,8 @@ parkolás: ingyenes ( a vendégházon belül , a vendégház előtt is)</p>
 	Kisállat maximum 10kg-ig vihető:      díja 3000.-Ft / éj 
 	A kisállat károkozásáért a gazdája a felelős, amelyet távozás előtt meg kell téríteni.
 	Fürdő köntös bérlése: 500.-Ft / nap 		 igényt előzetesen jelezni kell !
+	</p>
+	<p>
 	Amennyiben bográcsozáshoz, grillezéshez faszénre lenne, szüksége igénye esetén ellen szolgáltatás ellenében beszerezzük. Igényét előzetesen jelezni kell!
 	</p>
 		</div>

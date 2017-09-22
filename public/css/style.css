@@ -1,3 +1,8 @@
+
+#main, #myCarousel{
+	padding-left: 0px;
+	padding-right: 0px;
+}
 .navbar {
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
