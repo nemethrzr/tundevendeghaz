@@ -3,6 +3,10 @@
 	padding-left: 0px;
 	padding-right: 0px;
 }
+.container{
+	padding-right: 10px;
+	padding-left: 10px;
+}
 .navbar {
     -webkit-border-radius: 0 !important;
     -moz-border-radius: 0 !important;
@@ -92,7 +96,25 @@
 	text-decoration: none !important;
 }
 
-
+.pricing-table td,th{
+	text-align: center;
+	margin: 10px !important;
+}
+.pricing-table tbody tr:last-child td{
+	border: 0px;
+}
+.pricing-table tr td:first-child{
+	border: 0;
+	text-align:center;
+}
+.table-color-1{
+	background-color: #505D66;
+	color: #fff;
+}
+.table-color-2{
+	background-color: #017FBA;
+	color: #fff;
+}
 html,
 body {
     height: 100%;
@@ -101,8 +123,9 @@ body {
 body{
 	/*background-image: url("background.jpg");*/
 }
-body h2,p,b{
+body h2,p,b,ul li{
 	color: #555555;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 }
 
 /* Wrapper for page content to push down footer */

@@ -13,7 +13,7 @@
 
 
     $dir = './img/';
-    $thumb_dir = 'thumbnails';
+    $thumb_dir = './img/thumbnails/';
 
     $result = array(); 
 
@@ -42,8 +42,8 @@
         foreach ($result as $item) {
             $array[] = '<div class="panel panel-default">
                         <div class="panel-body">
-                            <a href="'.$dir.DIRECTORY_SEPARATOR.$item.'" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
-                                <img src="'.$dir.DIRECTORY_SEPARATOR.$thumb_dir.DIRECTORY_SEPARATOR.$item.'" alt="" />
+                            <a href="'.$dir.$item.'" title="" class="zoom" data-lightbox="images" data-title="sd" data-footer="sd" data-type="image" data-toggle="lightbox">
+                                <img src="'.$thumb_dir.$item.'" alt="" />
                                 <span class="overlay"><i class="glyphicon glyphicon-fullscreen"></i></span>
                             </a>
                         </div>
@@ -74,7 +74,7 @@
         }
 
 
-        $output='<div>';
+        $output='';
         foreach ($div as $key => $value) {
             //col-xs-12 col-sm-6 col-md-3
             $output.= '<article class="col-xs-6 col-sm-6 col-md-3">';
@@ -85,7 +85,7 @@
             }
             $output.='</article>';
         }
-        $output.='</div>';
+        $output.='';
 
 
 //var_dump($div);

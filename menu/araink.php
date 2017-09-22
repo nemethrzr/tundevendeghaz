@@ -16,11 +16,17 @@ etetőszék : ingyenes			igényt előzetesen jelezni kell !
 parkolás: ingyenes ( a vendégházon belül , a vendégház előtt is)</p>
 
 
+<hr>
 
-
-<table class="table table-hover">
+<table class="table table-hover table-bordsered pricing-table">
 	<thead>
-		<tr><th>Áraink a teljes vendégház bérletére vonatkoznak ellátás nélkül</th><th>2018. márc. 12.-tól - máj. 31.-ig</th><th>jún. 1-től szept 2.-ig</th><th>szept. 4-től - nov. 30-ig</th><th>dec 1.-től - jan. 6.-ig</th></tr>
+		<tr>
+			<th class="col-md-3">Áraink a teljes vendégház bérletére <br>vonatkoznak ellátás nélkül</th>
+			<th class="col-md-2 table-color-1">2018. márc. 12.-tól <br> máj. 31.-ig</th>
+			<th class="col-md-2  table-color-2">jún. 1-től <br> szept 2.-ig</th>
+			<th class="col-md-2  table-color-1">szept. 4-től <br> nov. 30-ig</th>
+			<th class="col-md-2  table-color-2">dec. 1.-től <br> jan. 6.-ig</th>
+		</tr>
 	</thead>
 	<tbody>
 		<tr><td>8 fő esetén </td><td>26.000.-Ft / éj</td><td>28.000.-Ft / éj</td><td>26.000.-Ft / éj</td><td>28.000.-Ft / éj</td></tr>
@@ -32,12 +38,19 @@ parkolás: ingyenes ( a vendégházon belül , a vendégház előtt is)</p>
 		<tr><td>2 fő esetén	</td><td>15.000.-Ft / éj</td><td>16.000.-Ft / éj</td><td>15.000.-Ft / éj</td><td>16.000.-Ft / éj</td></tr>		
 	</tbody>
 	<tfoot>
-		<tr><td><b>Időszakonkénti minimum foglalási napok:</b></td><td></td></tr>
+		<tr><td><b>Időszakonkénti <br> minimum foglalási napok:</b></td><td></td><td></td><td></td><td></td></tr>
 		<tr><td></td><td>minimum 2 nap</td><td>minimum 3 nap</td><td>minimum 2 nap</td><td>minimum 3 nap</td></tr>
 	</tfoot>
 	
 
 </table>
+
+
+
+
+
+
+
 <hr>
 <h3 class="text-center"><b>Ajánlat kérés most: </b><span class="icon-bar"><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:info@tundevendeghaz.hu">info@tundevendeghaz.hu</a></h3><hr>
 

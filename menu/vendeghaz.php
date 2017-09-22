@@ -17,9 +17,9 @@
 	<li>Fürdőszoba tusolóval, WC-vel </li>
 	<li>A nappaliban síkképernyős Tv, internet, WIFI az egész ház területén, étkező asztal, ülőgarnitúrák, és játékok várják önöket. A nappali fűtéssel is rendelkezik</li>
 </ul>
-<figure class="pull-right news-thumbs thumbnail">
+<!--<figure class="pull-right news-thumbs thumbnail">
                     <img alt="" src="img/WP_20160909_007.jpg" class="avatar avatar-160 photo" height="400" width="400">
-                </figure>
+                </figure>-->
 <p>
  
 
