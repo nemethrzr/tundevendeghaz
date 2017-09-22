@@ -12,7 +12,7 @@
 		        	<h2 class="pull-left">Kapcsolat</h2>
 		        </div>
 		        <div class="row">
-		        	<div class="col-md-6"><img src="img/IMG_0262.JPG" width="300" class="thumbnail"></div>
+		        	<div class="col-md-6"><img src="img/IMG_0262.jpg" width="300" class="thumbnail"></div>
 		        	<div class="col-md-6"><h3>Kapcsolat <br>(Foglalás/Felvílágosítás)</h3>
 			            
 			            <ul>

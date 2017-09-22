@@ -11,18 +11,18 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner">
 		    <div class="item active">
-		      <img src="img/IMG_0262.JPG" alt="">
+		      <img src="img/IMG_0262.jpg" alt="">
 		    </div>
 
 		    <div class="item">
-		      <img src="img/IMG_0263.JPG" alt="">
+		      <img src="img/IMG_0263.jpg" alt="">
 		    </div>
 
 		    <div class="item">
-		      <img src="img/IMG_0266.JPG" alt="">
+		      <img src="img/IMG_0266.jpg" alt="">
 		    </div>
 		    <div class="item">
-		      <img src="img/IMG_0268.JPG" alt="">
+		      <img src="img/IMG_0268.jpg" alt="">
 		    </div>
 		  </div>
 

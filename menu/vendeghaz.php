@@ -5,7 +5,7 @@
         <div class="">
             <article class="feature">
                 <figure class="pull-left news-thumbs thumbnail">
-                    <img alt="" src="img/IMG_0262.JPG" class="avatar avatar-160 photo" height="400" width="400">
+                    <img alt="" src="img/IMG_0262.jpg" class="avatar avatar-160 photo" height="400" width="400">
                 </figure>
                
                 <p>Vendégházunk Tiszakécskén a Nyúl u 26 sz. alatt található. Vendégházunk 4 szobával és 8 ággyal rendelkezik.</p>
